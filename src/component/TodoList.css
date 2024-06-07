@@ -1,0 +1,38 @@
+body {
+  background-color: #a28089;
+  padding: 10rem;
+}
+
+.TodoList {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.TodoList h1 {
+  font-size: 40px;
+}
+.input-div {
+  display: flex;
+}
+
+.TodoList input {
+  width: 20rem;
+  font-size: 20px;
+  height: 2rem;
+  border-radius: 5px;
+}
+.TodoList button {
+  width: 5rem;
+  height: 2.4rem;
+  font-size: 20px;
+  border-radius: 5px;
+}
+li {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 23rem;
+}
+li p {
+  font-size: 25px;
+}
